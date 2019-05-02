@@ -5,5 +5,5 @@ applications:
   random-route: true
   buildpack: java_buildpack
   path: ./target/spring-petclinic-cf-2.1.0.jar
-  env:
+  #env:
     #SPRING_PROFILES_ACTIVE: db2

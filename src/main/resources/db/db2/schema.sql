@@ -1,10 +1,3 @@
-drop table vet_specialties;
-drop table vets;
-drop table specialties;
-drop table visits;
-drop table pets;
-drop table types;
-drop table owners;
 
 CREATE TABLE vets (
   id         INTEGER NOT NULL PRIMARY KEY,
