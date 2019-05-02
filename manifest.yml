@@ -1,0 +1,9 @@
+---
+applications:
+- name: spring-petclinic
+  memory: 768M
+  random-route: true
+  buildpack: java_buildpack
+  path: ./target/spring-petclinic-cf-2.1.0.jar
+  env:
+    #SPRING_PROFILES_ACTIVE: db2
