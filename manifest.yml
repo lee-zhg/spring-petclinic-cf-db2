@@ -7,3 +7,4 @@ applications:
   path: ./target/spring-petclinic-cf-2.1.0.jar
   #env:
     #SPRING_PROFILES_ACTIVE: db2
+    #JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
