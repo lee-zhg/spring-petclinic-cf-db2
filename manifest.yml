@@ -5,6 +5,8 @@ applications:
   random-route: true
   buildpack: java_buildpack
   path: ./target/spring-petclinic-cf-2.1.0.jar
+  timeout: 120
   #env:
     #SPRING_PROFILES_ACTIVE: db2
     #JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
+    #JAVA_OPTS: '-Dspring.datasource.initialization-mode=always'
