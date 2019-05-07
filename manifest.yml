@@ -8,5 +8,5 @@ applications:
   timeout: 120
   env:
     JAVA_OPTS: '-Dspring.datasource.initialization-mode=always'
-    #SPRING_PROFILES_ACTIVE: db2
+    #SPRING_PROFILES_ACTIVE: postgresql
     #JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
